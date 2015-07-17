@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
-Author: 
-Date:   
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
+Author: Brian Kay
+Date:   7/17/15
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -12,7 +12,7 @@ Answer the following questions for Lesson 7 Assignment
 Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
-
+Because the order is important for the webpage to load correctly. The jQuery library file is what the .js file uses to load itself. If the jQuery library is not before a .js file, then the .js file will not load because the browser hasn't recognized the jQuery library that is needed to run the .js file. Therefore, the browser will not execute your code the way you intended it to.
 
 
 
@@ -20,7 +20,7 @@ Why should you ensure that the script element that links to the jQuery library f
 Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
-
+You should avoid it if you do not need it because it will make your page load much faster than if you had jQuery. This due to the large number of javascripts each jQuery library possesses. 
 
 
 
@@ -30,7 +30,7 @@ Why should you avoid including jQuery in a project if you don't need it?
 Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
-
+Each jQuery statement starts with a $.
 
 
 
@@ -39,3 +39,4 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+A CDN is a network of servers containing shared code libraries. Four advantages are that it reduces load time significantly, helps you expand into other regions, reduce existing hosting costs, and pre-cached files. Reduction of initial load time is critical to keeping the poeple who visit your site happy. With local data centers in regions across the world a well known CDN allows you to expand your speed into foreign markets. Many CDNs are free and will save you money in hosting. Pre-cached files allow for even more speed as the files may have already been downloaded.
